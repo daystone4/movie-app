@@ -1,0 +1,14 @@
+// Colors
+
+$dark: #0d1321;
+$white: #fff;
+$brown: #937b63;
+$accent: #931f1d;
+
+// Animations
+
+@keyframes loading {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
