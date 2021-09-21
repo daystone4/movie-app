@@ -68,6 +68,24 @@
 import axios from 'axios'
 
 export default {
+  head() {
+    return {
+      title: 'Movie App',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Check out all the latest streaming movies in theaters & online',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'movies, stream, streaming',
+        },
+      ],
+    }
+  },
+
   data() {
     return {
       movies: [],
